@@ -1,6 +1,6 @@
 .audio-player {
   height: 50px;
-  width: 350px;
+  width: 300px;
   background: #444;
   font-family: arial;
   color: white;
@@ -9,6 +9,7 @@
   display: grid;
   grid-template-rows: 6px auto;
 }
+@media (max-width:800px){.audio-player {width: 240px}}
 .audio-player .timeline {
   background: #dfdfdf;
   width: 100%;
