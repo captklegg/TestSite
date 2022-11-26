@@ -139,15 +139,6 @@ p {
 
 /* IMAGES */
 
-#banner {
-    background-image: url(../img/banner-small.webp);
-	background-repeat: no-repeat;
-	background-position: center; 
-	width: 90%;
-	min-height: 225px;
-	margin: 0 auto 2em;
-}
-
 img {
     width: 100%;
 }
@@ -164,4 +155,14 @@ img {
 .podcast-icon {
 	margin: 0 1em;
 	width: 40px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  #header_desktop {
+   display:none;
+  }
+  #header_mobile {
+   display:block;
+  }
 }
