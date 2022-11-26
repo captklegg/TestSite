@@ -34,6 +34,12 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
 	order: 0;
 }
 
+.bottom-containers {
+	margin: auto;
+	width: 50%;
+}
+
+
 
 /* TYPOGRAPHY */
 
