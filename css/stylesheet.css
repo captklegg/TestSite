@@ -72,6 +72,10 @@ p {
 	padding-top: 2em;
 }
 
+.margin-bottom {
+	padding-bottom: 2em;
+}
+
 #social {
 	margin: 1em 0;
 }
@@ -155,4 +159,8 @@ img {
 .podcast-icon {
 	margin: 0 1em;
 	width: 40px;
+}
+
+.patreon-link {
+	width: 150px;
 }
