@@ -156,13 +156,3 @@ img {
 	margin: 0 1em;
 	width: 40px;
 }
-
-/* Small devices (tablets, 768px and up) */
-@media (max-width: 768px) { 
-  #header_desktop {
-   display:none;
-  }
-  #header_mobile {
-   display:block;
-  }
-}
