@@ -143,7 +143,7 @@ p {
     background-image: url(../img/title-small.png);
 	background-repeat: no-repeat;
 	background-position: center; 
-	height: 262px;
+	width: 100%;
 	margin: 0 auto 2em;
 }
 
