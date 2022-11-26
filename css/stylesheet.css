@@ -144,7 +144,7 @@ p {
 	background-repeat: no-repeat;
 	background-position: center; 
 	width: 90%;
-	max-height: 262px;
+	min-height: 225px;
 	margin: 0 auto 2em;
 }
 
