@@ -154,7 +154,7 @@ h5,
 h6 {
     font-family: "Segoe UI", Arial, sans-serif;
     font-weight: 400;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 h3.menu {
     font-family: "Segoe UI", Arial, sans-serif;
@@ -516,7 +516,7 @@ w3-fifth {
     padding: 8px 16px !important;
 }
 .w3-padding-large {
-    padding: 12px 24px !important;
+    padding: 12px 12em !important;
 }
 .w3-padding-menu {
     padding: 8px !important;
@@ -645,6 +645,10 @@ hr.black {
     position: fixed;
     right: 0;
     z-index: 1;
+}
+
+.margin-bottom {
+	margin-bottom: 1.5em;
 }
 .padding2 {
     padding-bottom: 2em;
@@ -836,8 +840,8 @@ hr.grey {
 }
 
 .menu-box {
-	margin: 12px 32px;
-	padding: 4px 16px;
+	margin: 12px 11em;
+	padding: 4px 0;
 	z-index:999;
 }
 
@@ -1054,4 +1058,22 @@ hr.grey {
 .gototop::after{
   right: 18px;
   transform: rotate(-45deg);
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-items:nth-child(1) {
+  display: block;
+  flex: 0 0 350px;
+  padding: 1em;
+}
+
+.flex-items:nth-child(2) {
+  display: block;
+  flex: 1;
+  padding: 1em 3em;
 }

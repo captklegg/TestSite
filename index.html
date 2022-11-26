@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-161913622-1"></script>
 	<script>
 	  window.dataLayer = window.dataLayer || [];
@@ -18,7 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="The website of Underwood and Flinch.">
 	<meta name="keywords" content="Mike Bennett, Underwood and Flinch, official, website, free, podcast, novelist, novels, audiobooks, Podiobooks, Podiobook author, horror, fiction, Kindle, ebook, Audible, Parsec Award, winner, classic stories, One Among the Sleepless, Hall of Mirrors, The Vault of Lovecraft, After the Plague, free audiobooks">
-	<meta name="copyright" content="Copright Mike Bennett 2021">
+	<meta name="copyright" content="Copright Mike Bennett 2022">
 	<meta name="language" content="EN">
 	<meta name="author" content="Mike Bennett">
 	<meta name="distribution" content="global">
@@ -44,33 +45,22 @@
 	<meta name="twitter:description" content="Underwood and Flinch - a four-time Parsec Award winning series of books / audiobooks that follow the adventures of the vampire, Lord Underwood. Written and read by Mike Bennett. Underwood and Flinch, and Blood and Smoke are available to download as free podcasts.">
 	<meta name="twitter:image" content="http://underwoodandflinch.com/img/header.jpg">
 	
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="css/menu.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+	<link rel="manifest" href="site.webmanifest">	
 	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="manifest" href="site.webmanifest">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}</style>
+	<style>@font-face {font-family: Raleway; src: url(fonts/Raleway-Regular.woff);}</style>
+</head>
 
-<body class="w3-white w3-content" style="max-width:1600px">
-<!-- Top of page button -->
-<button class="gototop"></button>
-<!-- PAGE CONTENT -->
-<div class="w3-main w3-white">
+<body>
 
-	<!-- Header -->
-	<header id="header">
-		<div class="w3-container w3-center padding-top">
-			<picture>
-				<source media="(max-width:800px)" srcset="img/title-small.png">
-				<img src="img/title.png" alt="Underwood and Flinch title" style="width:100%;">
-			</picture>
-		</div>
-		<div class="w3-container w3-center">
-			<h3><b>The Award-Winning Vampire Podcast Saga</b></h3>
-		</div>	
+	<header class="margin-top">
+		<img src="img/title.webp" alt="Underwood and Flinch title">
+		<h3 class="header centre">The Award-Winning Vampire Podcast Saga</h3>
+		<!-- Menu -->
 		<div class="menu-box">
 			<!--Navbar-->
 			<nav class="navbar navbar-expand-lg navbar-dark primary-color">
@@ -120,210 +110,91 @@
 				</div>
 			</nav>
 		</div>
-		<div class="w3-container w3-center padding-follow" id="follow">
-			<a href="https://www.facebook.com/mike.bennett.author" rel="noopener" alt="Facebook link"><img src="social/facebook.png" width="40"></a>
-			<a href="https://www.instagram.com/mikebennettauthor/" rel="noopener" alt="Instagram link"><img src="social/instagram.png" width="40"></a>
-			<a href="https://www.patreon.com/mikebennett" rel="noopener" alt="Patreon link"><img src="social/patreon.png" width="40"></a>
-			<a href="https://mastodon.social/@MikeBennett" target="_blank" rel="noopener" alt="Mastodon"><img src="social/mastodon.png" width="40"></a>
-			<a href="https://twitter.com/TheMikeBennett" rel="noopener" alt="Twitter link"><img src="social/twitter.png" width="40"></a>
-			<a href="https://www.goodreads.com/book/show/7819220-underwood-and-flinch" target="_blank" rel="noopener" alt="Goodreads link"><img src="social/goodreads.png" width="40"></a>
+		<div id="social" class="centre">
+			<a href="https://www.facebook.com/mike.bennett.author" rel="noopener" alt="Facebook link"><img src="social/facebook.png" class="social-icons"></a>
+			<a href="https://www.instagram.com/mikebennettauthor/" rel="noopener" alt="Instagram link"><img src="social/instagram.png" class="social-icons"></a>
+			<a href="https://www.patreon.com/mikebennett" rel="noopener" alt="Patreon link"><img src="social/patreon.png" class="social-icons"></a>
+			<a href="https://mastodon.social/@MikeBennett" target="_blank" rel="noopener" alt="Mastodon"><img src="social/mastodon.png" class="social-icons"></a>
+			<a href="https://twitter.com/TheMikeBennett" rel="noopener" alt="Twitter link"><img src="social/twitter.png" class="social-icons"></a>
+			<a href="https://www.goodreads.com/book/show/7819220-underwood-and-flinch" target="_blank" rel="noopener" alt="Goodreads link"><img src="social/goodreads.png" class="social-icons"></a>
 		</div>
-  	</header>
-	<!-- Book Grid-->
-	<!-- Underwood-->
-	<div class="w3-row-padding animated fadeIn">
-		<div class="w3-fifth w3-container w3-margin-bottom">
-			<img src="img/underwoodflinch800.jpg" alt="Underwood and Flinch book cover" style="width:100%">
-			<div class="w3-container w3-black books18">
-				<div class="w3-center">
-					<h4><b>Season 1</b></h4>
-					<h4><b>Underwood &amp; Flinch</h4></b>
-				</div>
-				<p>All David Flinch ever wanted was a normal life. But when you're a member of the Flinch family, normal has never been easy.</p>
-				<div id="underwood" class="fulltext">
-					<p>For hundreds of years, the eldest-born male of each generation of the Flinch family has been servant 
-					and guardian to the vampire, Lord Underwood.</p>
-					<p>While the Flinches have changed through the generations, Underwood has remained eternal. David had hoped to be spared 
-					the horror of serving his family's lord and master, but when he is summoned to the Flinch home in Spain by his dying older brother, he knows his luck 
-					has run out.</p>
-					<p>After fifty years of slumber, Underwood is to be resurrected from the grave in a ritual of human sacrifice, and David, 
-					by right of succession, is to be his resurrector. But there is another Flinch, one who craves the role of guardian to the vampire: David’s sister, Lydia. 
-					It’s a job she means to have, even if it means making David’s the first blood shed in this new age of Underwood and Flinch.</p>
-				</div>
-				<button aria-expanded="false" aria-controls="underwood" class="toggle-content bloody" hidden><span class="text">Show More</span></button>
+	</header>
+	
+	<main>
+	
+	<div class="animated fadeIn">
+		<div class="book-titles margin-top">
+			<div class="book-cover centre-image">
+				<img src="img/underwoodflinch800.jpg" alt="Underwood and Flinch book cover">
 			</div>
-			<div class="w3-container w3-center w3-black books">
-				<div class="w3-center w3-black">
-					<hr class="grey">
-					<h4 class="w3-text-white padding-top">Listen</h4>
-					<p>Subscribe to podcast, or purchase on Audible.</p>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link"><img src="img/apple.png" width="35"></a><br><a class="iconLabel" href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link">Apple</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcast link"><img src="img/google.png" width="35"></a><br><a class="iconLabel" href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcast link">Android</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link"><img src="img/spotify.png" width="35"></a><br><a class="iconLabel" href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link">Spotify</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://www.audible.com/pd/B08M8YJV42/?source_code=AUDFPWS0223189MWT-BK-ACX0-220518&ref=acx_bty_BK_ACX0_220518_rh_us"><img src="img/audible-small.png" alt="underwood and flinch audible link image" width="35"></a><br><a class="iconLabel" href="https://www.audible.com/pd/B08M8YJV42/?source_code=AUDFPWS0223189MWT-BK-ACX0-220518&ref=acx_bty_BK_ACX0_220518_rh_us" rel="noopener" alt="audible link">Audible</a></div>
+			<div class="book-info padding">
+				<div class="">
+					<h2>Season 1 - Underwood &amp; Flinch</h2>
 				</div>
+				<div class="book-description">
+					<p>All David Flinch ever wanted was a normal life. But when you're a member of the Flinch family, normal has never been easy.</p>				
+					<div id="underwood" class="fulltext">
+						<p>For hundreds of years, the eldest-born male of each generation of the Flinch family has been servant 
+						and guardian to the vampire, Lord Underwood.</p>
+						<p>While the Flinches have changed through the generations, Underwood has remained eternal. David had hoped to be spared 
+						the horror of serving his family's lord and master, but when he is summoned to the Flinch home in Spain by his dying older brother, he knows his luck 
+						has run out.</p>
+						<p>After fifty years of slumber, Underwood is to be resurrected from the grave in a ritual of human sacrifice, and David, 
+						by right of succession, is to be his resurrector. But there is another Flinch, one who craves the role of guardian to the vampire: David’s sister, Lydia. 
+						It’s a job she means to have, even if it means making David’s the first blood shed in this new age of Underwood and Flinch.</p>
+					</div>
+					<button aria-expanded="false" aria-controls="underwood" class="toggle-content bloody" hidden><span class="text">Show More</span></button>
+				</div>
+
+				<div class="centre margin-top">
+					<h3>Listen</h4>
+					<p>Subscribe to podcast, or purchase on Audible.</p>
+					<div class="podcast-flex justify-centre">
+						<figure class="centre">
+							<a href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link">
+								<img class="podcast-icon" src="img/apple.png">
+							</a>
+							<figcaption>
+								<a class="podcast-link" href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link">Apple</a>
+							</figcaption>
+						</figure>
+						<figure class="centre">
+							<a href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcast link">
+								<img class="podcast-icon" src="img/google.png">
+							</a>
+							<figcaption>
+								<a class="podcast-link" href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcast link">Android</a>
+							<figcaption>
+						</figure>
+						<figure class="centre">
+							<a href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link">
+								<img class="podcast-icon" src="img/spotify.png">
+							</a>
+							<figcaption>
+								<a class="podcast-link" href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link">Spotify</a>
+							</figcaption>
+						</figure>
+						<figure class="centre">
+							<a href="https://www.audible.com/pd/B08M8YJV42/?source_code=AUDFPWS0223189MWT-BK-ACX0-220518&ref=acx_bty_BK_ACX0_220518_rh_us">
+								<img class="podcast-icon" src="img/audible-small.png" alt="underwood and flinch audible link image">
+							</a>
+							<figcaption>
+								<a class="podcast-link" href="https://www.audible.com/pd/B08M8YJV42/?source_code=AUDFPWS0223189MWT-BK-ACX0-220518&ref=acx_bty_BK_ACX0_220518_rh_us" rel="noopener" alt="audible link">Audible</a></div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+
 			</div>
 		</div><!-- Underwood end-->
-		<!-- Blood and Smoke-->
-		<div class="w3-fifth w3-container w3-margin-bottom">
-			<img src="img/BloodAndSmoke800.jpg" alt="Blood and Smoke book cover" style="width:100%">
-			<div class="w3-container w3-black books18">
-				<div class="w3-center">
-					<h4><b>Season 2</b></h4>
-					<h4><b>Blood &amp; Smoke</b></h4>
-				</div>
-				<p>The adventure of Underwood and Flinch continues in "Blood &amp; Smoke", the first audiobook sequel to the original story.</p>
-				<div id="blood" class="fulltext">
-					<p>Having returned to the family house in Spain, David Flinch uncovers old audio interviews between his father, Arthur Flinch, and the vampire, Lord Underwood.</p>
-					<p>Through these recordings, David learns what happened to Underwood when he and Matthias Flinch sailed on from where we left them in 1719. A voyage that sees Underwood face new dangers, make new 
-					allies, and discover more about the creature of darkness he has become.</p>
-				</div>
-				<button aria-expanded="false" aria-controls="blood" class="toggle-content bloody" hidden><span class="text">Show More</span></button>	
-			</div>
-			<div class="w3-container w3-center w3-black books">
-				<div class="w3-center w3-black">
-					<hr class="grey">
-					<h4 class="w3-text-white padding-top">Listen</h4>
-					<p>Subscribe to podcast, or purchase on Audible.</p>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link"><img src="img/apple.png" width="40"></a><br><a class="iconLabel" href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link">Apple</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcasts link"><img src="img/google.png" width="40"></a><br><a class="iconLabel" href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcast link">Android</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link"><img src="img/spotify.png" width="35"></a><br><a class="iconLabel" href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link">Spotify</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://www.audible.com/pd/Underwood-and-Flinch-Blood-and-Smoke-Audiobook/B08PCB4XKS?plink=N6gNLnpD4o1z5rxN&ref=a_pd_Underw_c5_adblp13npsbx_1_1&pf_rd_p=84f8cf28-a842-4761-accd-e5126124c7a3&pf_rd_r=1WH12F6CJ495C53FRDV3"><img src="img/audible-small.png" alt="underwood and flinch audible link image" width="40"></a><br><a class="iconLabel" href="https://www.audible.com/pd/Underwood-and-Flinch-Blood-and-Smoke-Audiobook/B08PCB4XKS?plink=N6gNLnpD4o1z5rxN&ref=a_pd_Underw_c5_adblp13npsbx_1_1&pf_rd_p=84f8cf28-a842-4761-accd-e5126124c7a3&pf_rd_r=1WH12F6CJ495C53FRDV3" rel="noopener" alt="audible link">Audible</a></div>
-				</div>
-			</div>
-		</div><!-- Blood and Smoke end-->
-		<!-- Season 3-->
-		<div class="w3-fifth w3-container w3-margin-bottom">
-			<img src="img/season3.jpg" alt="Blood and Smoke book cover" style="width:100%">
-			<div class="w3-container w3-black books18">
-				<div class="w3-center">
-					<h4><b>Season 3</b></h4>
-					<h4><b>Underground Part One</b></h4>
-					</div>
-				<p>Season 3 of Underwood and Flinch sees David Flinch return to England, where he is drawn into the hunt for a serial killer whose gruesome methods have earned him the title, “The London Vampire”.</p>
-				<div id="blood" class="fulltext">
-					<p>Could the killer be a real vampire? Detective Inspector Claire Redmond thinks so, and she should know, for vampire hunting runs in her family.</p>
-					<p>This fourteen-episode season consists of the first 13 chapters of U&F Underground (available in its entirety at Patreon), and the U&F short story Disturbing the Devil, previously only available at Audible and Patreon.</p>
-				</div>
-				<button aria-expanded="false" aria-controls="blood" class="toggle-content bloody" hidden><span class="text">Show More</span></button>	
-			</div>
-			<div class="w3-container w3-center w3-black books">
-				<div class="w3-center w3-black">
-					<hr class="grey">
-					<h4 class="w3-text-white padding-top">Listen</h4>
-					<p>Subscribe to podcast, or purchase on Audible.</p>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link"><img src="img/apple.png" width="40"></a><br><a class="iconLabel" href="https://podcasts.apple.com/us/podcast/underwood-and-flinch-and-other-tales-by-mike-bennett/id203424910" rel="noopener" alt="apple podcasts link">Apple</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcasts link"><img src="img/google.png" width="40"></a><br><a class="iconLabel" href="https://subscribeonandroid.com/mikebennett.libsyn.com/rss" rel="noopener" alt="android podcast link">Android</a></div>
-					<div style="display:inline-block;height:100px"><a class="icon" href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link"><img src="img/spotify.png" width="35"></a><br><a class="iconLabel" href="https://open.spotify.com/show/3VwIE3bG0zpTCNzRtGpnUV?si=yGtm-HFvQemv87jStwyh5A" rel="noopener" alt="spotify podcast link">Spotify</a></div>
-					<!--<div style="display:inline-block;height:100px"><a class="icon" href="https://www.audible.com/pd/Underwood-and-Flinch-Blood-and-Smoke-Audiobook/B08PCB4XKS?plink=N6gNLnpD4o1z5rxN&ref=a_pd_Underw_c5_adblp13npsbx_1_1&pf_rd_p=84f8cf28-a842-4761-accd-e5126124c7a3&pf_rd_r=1WH12F6CJ495C53FRDV3"><img src="img/audible-small.png" alt="underwood and flinch audible link image" width="40"></a><br><a class="iconLabel" href="https://www.audible.com/pd/Underwood-and-Flinch-Blood-and-Smoke-Audiobook/B08PCB4XKS?plink=N6gNLnpD4o1z5rxN&ref=a_pd_Underw_c5_adblp13npsbx_1_1&pf_rd_p=84f8cf28-a842-4761-accd-e5126124c7a3&pf_rd_r=1WH12F6CJ495C53FRDV3" rel="noopener" alt="audible link">Audible</a></div> -->
-				</div>
-			</div>
-		</div><!-- Season 3 end-->
-		<!-- Underground-->
-		<div class="w3-fifth w3-container w3-margin-bottom">		
-			<img src="img/underground.jpg" alt="Underground book cover" style="width:100%">			
-			<div class="w3-container w3-black books18">
-				<div class="w3-center">
-					<h4><b>Season 4 and beyond: Patreon only</b></h4>
-					<h4><b>Underground</b></h4>
-				</div>
-					<p>David Flinch returns to England where he is drawn into the hunt for a serial killer whose gruesome methods have earned him the title, “The London Vampire”.</p>
-					<div id="underground" class="fulltext">
-						<p>Could the killer be a real vampire? Detective Inspector Claire Redmond thinks so, and she should know, for vampire hunting runs in her family.<p>
-						<p>Underground is the third novel in the Underwood and Flinch Saga. A 60-episode Patreon-only exclusive podcast that expands the U&F universe with new revelations, new locations, and new characters - not all of them human.</p>
-						<p>To continue the adventure, click on the button below to go to Mike Bennett’s Patreon.</p>
-					</div>
-					<button aria-expanded="false" aria-controls="underground" class="toggle-content bloody" hidden><span class="text">Show More</span></button>	
-			</div>			
-			<div class="w3-container w3-center w3-black books">
-				<div class="w3-center w3-black">
-					<hr class="grey">
-					<h4 class="w3-text-white padding-top">Listen on Patreon</h4>
-					<p>Support Mike by joining his Patreon page.</p>
-					<div style="display:inline-block;height:100px"><a href="https://www.patreon.com/mikebennett"><img src="img/patreon-link.png" alt="underground patreon link image" width="55%"></a></div>
-				</div>
-			</div>
-			</div><!-- Underground end-->
-			<!-- Claverton-->
-		<div class="w3-fifth w3-container w3-margin-bottom">		
-			<img src="img/claverton.jpg" alt="The Devil of Claverton book cover" style="width:100%">			
-			<div class="w3-container w3-black books18">
-				<div class="w3-center">
-					<h4><b>Patreon Only</b></h4>
-					<h4><b>The Devil of Claverton</b></h4>
-				</div>
-					<p>The U&amp;F origin story continues in this Patreon-only fourth volume in the U&F saga.</p>	
-			</div>			
-			<div class="w3-container w3-center w3-black books">
-				<div class="w3-center w3-black">
-					<hr class="grey">
-					<h4 class="w3-text-white padding-top">Listen on Patreon</h4>
-					<p>Support Mike by joining his Patreon page.</p>
-					<div style="display:inline-block;height:100px"><a href="https://www.patreon.com/mikebennett"><img src="img/patreon-link.png" alt="underground patreon link image" width="55%"></a></div>
-				</div>
-			</div><!-- Claverton end-->
+		
 	</div>
 
-	<div class="w3-container w3-padding-large" id="latest">
-	<hr>
-	<div class="w3-row-padding">
-		<div class="w3-third" id="post1" style="background:#fcfcfc">
-		  <div class="w3-center"><h3>LATEST PODCAST FROM THE AUTHOR</h3></div>
-			<p>&nbsp;</p>
-				<iframe style="border: none" src="//html5-player.libsyn.com/embed/destination/id/3037274/height/360/theme/custom/thumbnail/yes/direction/backward/no-cache/true/render-playlist/yes/custom-color/030303/" height="90" width="90%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-			<p>&nbsp;</p>
-		</div>			
-		<div class="w3-third" id="post2">
-			<div class="w3-center"><h3>TWITTER</h3></div>
-			<div class="w3-center"><a class="twitter-timeline" data-width="300" data-height="400" data-theme="light" href="https://twitter.com/TheMikeBennett?ref_src=twsrc%5Etfw">Tweets by TheMikeBennett</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
-		</div>			
-		<div class="w3-third" id="author" style="background:#fcfcfc">
-			<div class="w3-center"><h3>ABOUT THE AUTHOR</h3>
-			<picture><source srcset="img/mike_bennett.webp" type="image/webp"><source srcset="img/mike_bennett.jpg" type="image/jpeg"><img class="img-side" src="img/mike_bennett.jpg" width="60%" alt="Mike Bennett headshot"></picture>
-			<p style="justify:left">Mike Bennett is the five-time Parsec Award winning author of <i>Underwood and Flinch</i>, <i>Blood and Smoke</i>, <i>Hall of Mirrors</i>, and <i>One Among the Sleepless</i>. Mike Bennett now writes and podcasts in Wexford, Ireland, where he lives with his wife and two rescue dogs. He became an Irish citizen in 2021.</p>
-		</div>
-	</div>
-	<hr>
-	</div>
-
-	<!-- Footer -->
-	<footer class="w3-container w3-padding-16 w3-white">
-	<div class="w3-row-padding">
-		<div class="w3-third w3-center" id="playlist">
-			<h3>SOUNDTRACK PLAYLIST</h3>
-			<p>Listen to the Underwood and Flinch soundtrack playlist on Spotify.</p>
-			<div class="w3-center"><iframe src="https://open.spotify.com/embed/playlist/3rCCXU8RntJpXlxqLmufnh" width="280" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-		</div>  	
-		<div class="w3-third w3-center" id="sponsor" style="background:#fcfcfc">
-			<h3>SPONSOR UNDERWOOD AND FLINCH</h3>
-			<p>For only $3 a month, enter the 60-episode exclusive podcast of U&amp;F Book 3: Underwood and Flinch: Underground.</p>
-			<a class="w3-hover-opacity" href="https://www.patreon.com/mikebennett"><img src="img/patreon-banner.png" alt="patreon link image" width="50%"></a>
-			<div class="padding-top">
-				<h3>SHOP</h3>
-				<a class="w3-hover-opacity" href="https://www.redbubble.com/people/Mikeeeeee/shop" target="_blank" rel="noopener"><img src="img/redbubble.jpg" width="90%"></a>
-			</div>
-		</div>
-		<div class="w3-third w3-center" id="music">
-			<h3>THEME SONG</h3>
-			<p>Listen to the Underwood and Flinch theme song by Farid Farjad.</p>
-			<iframe src="https://open.spotify.com/embed/track/47llh0xi7NYiPNfEf3j6VM" width="280" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-		</div>
-	</div>
-	</footer>
-	<footer class="w3-container" style="padding-top:4em">
-		<div class="w3-white w3-center w3-padding-24">
-			<div class="lineHeader">
-				<a href="https://www.mikebennettauthor.com/" title="mike bennet author.com" class="w3-hover-opacity"><img src="img/footer.png" width="200px"></a>
-			</div>
-	</div>
-<!-- End page content -->
-</div>
-
+	</main>
+	
+<!-- Bootstrap for nav menu -->	
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<!-- Bootstrap for nav menu -->
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
-<!-- Go to top of page -->
-<script type="text/javascript" src="js/gototop.js"></script>
 
 <script>
 	// cut the mustard
@@ -365,6 +236,7 @@
 		});
 	}
 </script>
-	
+
 </body>
+
 </html>
