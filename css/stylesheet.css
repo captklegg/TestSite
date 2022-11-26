@@ -139,6 +139,14 @@ p {
 
 /* IMAGES */
 
+#banner {
+    background-image: url(../img/title-small.png);
+	background-repeat: no-repeat;
+	background-position: center; 
+	height: 262px;
+	margin: 0 auto 2em;
+}
+
 img {
     width: 100%;
 }
