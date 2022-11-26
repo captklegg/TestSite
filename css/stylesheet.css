@@ -140,11 +140,11 @@ p {
 /* IMAGES */
 
 #banner {
-    background-image: url(../img/title-small.png);
+    background-image: url(../img/banner-small.webp);
 	background-repeat: no-repeat;
 	background-position: center; 
 	width: 90%;
-	min-height: 262px;
+	max-height: 262px;
 	margin: 0 auto 2em;
 }
 
