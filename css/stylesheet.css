@@ -244,6 +244,7 @@ img {
 	.book-flex-container {
 		display: block;
 		margin-bottom: 1em;
+		padding: 1em 0;
 	}
 
 	.book-image {
