@@ -355,7 +355,6 @@ w3-fifth {
 .book-pair-parent-element { 
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-gap: 20px; 
     width: 100%; 
 } 
 .book-pair-child-element { 
