@@ -380,6 +380,12 @@ w3-fifth {
     .w3-row-padding > .w3-third {
         padding: 6px;
     }
+	.book-pair-parent-element { 
+    display: block; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    width: 100%; 
+} 
 }
 .w3-container {
     padding: 0.01em 16px;
