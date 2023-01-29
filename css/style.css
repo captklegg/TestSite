@@ -759,7 +759,7 @@ hr.style-one {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    margin-bottom: 1em;
+    margin: 0 5em 1em;
 }
 .lineHeader:after {
     margin-left: 1em;
