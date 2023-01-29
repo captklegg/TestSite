@@ -343,6 +343,10 @@ w3-fifth {
 	z-index:9;
 }
 
+.padding-element-bottom {
+	padding-bottom: 3rem;
+}
+
 .parent-element {
   display: flex;
   width: 100%;
@@ -359,6 +363,19 @@ w3-fifth {
 } 
 .book-pair-child-element { 
     margin: 5px; 
+}
+
+.read-pair-parent-element { 
+	display: flex;
+    justify-content: center;
+    width: 100%; 
+} 
+.read-pair-child-element { 
+    margin: 5px; 
+}
+
+.read-max {
+	max-width: 15rem;
 }
 
 .social-icons {
