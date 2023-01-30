@@ -180,7 +180,7 @@ img {
 	width: 40px;
 }
 a {
-    color: inherit;
+    color: blue;
 }
 .w3-display-container {
     position: relative;
@@ -387,6 +387,11 @@ w3-fifth {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+figcaption {
+	margin: 2em 0;
+	text-align: center;
 }
 
 
