@@ -378,8 +378,25 @@ w3-fifth {
 	max-width: 15rem;
 }
 
+.logo {
+	width: 64px;
+}
+
+.books-link {
+	margin: 1rem 0 0 1rem;
+	max-width: 15rem;
+}
+
+.read-margin {
+	margin-bottom: 2rem;
+}
+
 .read-figcaption {
 	min-height: 10rem;
+}
+
+.podcast-icon {
+	width: 64px;
 }
 
 .social-icons {
