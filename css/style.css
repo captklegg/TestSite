@@ -368,6 +368,7 @@ w3-fifth {
 .read-pair-parent-element { 
 	display: flex;
     justify-content: center;
+	margin-bottom: 2rem;
     width: 100%; 
 } 
 .read-pair-child-element { 
@@ -413,6 +414,10 @@ w3-fifth {
 figcaption {
 	margin: 2em 0 2em 1em;
 	text-align: center;
+}
+
+.padding-large {
+	padding: 2em;
 }
 
 
