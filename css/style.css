@@ -32,7 +32,7 @@ audio:not([controls]) {
 a {
     background-color: transparent;
     text-decoration: none;
-    padding: 0 5px;
+    padding: 0;
 }
 a.logo {
     background-color: transparent;
@@ -411,7 +411,7 @@ w3-fifth {
 }
 
 figcaption {
-	margin: 2em 0;
+	margin: 2em 0 2em 1em;
 	text-align: center;
 }
 
